@@ -1,0 +1,18 @@
+
+page.data-v-31f82cc4{
+	background-color: #FFF;
+	color: #333;
+	padding: 22rpx;
+}
+.title.data-v-31f82cc4{
+	font-size: 17px;
+	font-weight: 700;
+}
+.flex-space.data-v-31f82cc4{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10rpx;
+	margin-bottom: 20rpx;
+}
+

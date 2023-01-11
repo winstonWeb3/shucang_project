@@ -1,0 +1,1 @@
+<view class="uqrcode"><canvas style="{{'width:'+(options.size+'px')+';'+('height:'+(options.size+'px')+';')}}" id="qrcode" canvas-id="qrcode"></canvas></view>

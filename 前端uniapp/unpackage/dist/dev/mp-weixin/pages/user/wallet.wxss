@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background-color: #F7F7F7;
+}
+.contain .decorate {
+  height: 460rpx;
+  position: relative;
+  overflow: hidden;
+}
+.contain .decorate .circle {
+  width: 993px;
+  padding-bottom: 100%;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.contain .wallet {
+  width: calc(100% - 2 * 32rpx);
+  border-radius: 8px;
+  position: absolute;
+  top: 30rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 2;
+  background: #fff;
+  box-shadow: 0 0 10px #eee;
+  padding-bottom: 20rpx;
+}
+.contain .wallet .safeguard {
+  height: 33px;
+  background: rgba(61, 62, 63, 0.13);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+.contain .wallet .top {
+  margin-top: 54rpx;
+  text-align: center;
+}
+.contain .wallet .balance {
+  height: 55px;
+  margin-top: 44rpx;
+  font-size: 44px;
+  color: #000;
+  text-align: center;
+}
+.contain .wallet .btn-normal {
+  width: 540rpx;
+  height: 96rpx;
+  background: #1989fa;
+  border-radius: 16rpx;
+  margin: 100rpx auto 0;
+  font-size: 18px;
+  color: #fff;
+  line-height: 96rpx;
+  text-align: center;
+}
+.content {
+  padding: 0 32rpx;
+  margin-top: 160rpx;
+}
+.content .withdraw_record {
+  height: 120rpx;
+  padding: 0 22rpx;
+  border-radius: 22rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  color: #333;
+}
+.content .withdraw_record .img {
+  width: 44rpx;
+  height: 44rpx;
+}
+.back {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.back .change {
+  width: 86%;
+  padding: 30rpx;
+  background-color: #FFF;
+  border-radius: 30rpx;
+  box-sizing: border-box;
+}
+.back .change .title {
+  text-align: center;
+}
+.back .change .ipt {
+  margin: 0 auto;
+  margin-top: 30rpx;
+  width: 90%;
+  height: 70rpx;
+  line-height: 70rpx;
+  border: 4rpx dashed #ddd;
+  padding-left: 8rpx;
+}
+.back .change .ipt input {
+  width: 100%;
+  height: 100%;
+}
+.back .yes {
+  width: 80%;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  background-color: #1989fa;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 40rpx;
+  border-radius: 34rpx;
+}
+.radio-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  margin: 30rpx 0;
+}
+.radio-btn .radio-btn-item {
+  display: flex;
+  align-items: center;
+}
+

@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index",
+    "pages/register/index",
+    "pages/forget/index",
+    "pages/index/detail",
+    "pages/index/notice",
+    "pages/blindBox/index",
+    "pages/market/index",
+    "pages/compose/index",
+    "pages/compose/goods",
+    "pages/user/index",
+    "pages/user/wallet",
+    "pages/user/walletDetail/index",
+    "pages/order/index",
+    "pages/setting/index",
+    "pages/user/userinfo",
+    "pages/user/billingMessage",
+    "pages/artice/index",
+    "pages/user/feedback",
+    "pages/user/about",
+    "pages/user/realname",
+    "pages/collection/index",
+    "pages/collection/sale",
+    "pages/collection/detail",
+    "pages/fraction/index",
+    "pages/invite/index",
+    "pages/user/rank",
+    "pages/invite/invitePoster",
+    "pages/user/message"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "尼古数藏",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#575757",
+    "selectedColor": "#1989fa",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "#ebedf0",
+    "fontSize": "14px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/logo_01.png",
+        "selectedIconPath": "./static/logo_01_active.png"
+      },
+      {
+        "pagePath": "pages/blindBox/index",
+        "text": "市场",
+        "iconPath": "./static/logo_04.png",
+        "selectedIconPath": "./static/logo_04_active.png"
+      },
+      {
+        "pagePath": "pages/collection/index",
+        "text": "我的藏品",
+        "iconPath": "./static/logo_02.png",
+        "selectedIconPath": "./static/logo_02_active.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "./static/logo_03.png",
+        "selectedIconPath": "./static/logo_03_active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

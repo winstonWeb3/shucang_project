@@ -1,0 +1,258 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page.data-v-50789bcc {
+  background-color: #F6F7FB !important;
+}
+.top_img.data-v-50789bcc {
+  width: 100%;
+  height: 420rpx;
+}
+.dis_flex.data-v-50789bcc {
+  height: 150rpx;
+  width: 90%;
+  margin: 10rpx auto;
+  background: linear-gradient(-64deg, #97461a, #f9dda8 0, #ffd392 56%, #f9dda8);
+  border-radius: 20rpx;
+  padding: 0 32rpx 0 40rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dis_flex .left.data-v-50789bcc {
+  display: flex;
+  align-items: center;
+}
+.dis_flex .left .img.data-v-50789bcc {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+}
+.dis_flex .left .img image.data-v-50789bcc {
+  width: 100%;
+  height: 100%;
+}
+.dis_flex .left .compose-title.data-v-50789bcc {
+  color: #1c1c1c;
+  font-size: 15px;
+  font-weight: 700;
+}
+.dis_flex .left .tip_title.data-v-50789bcc {
+  color: #333;
+  margin-top: 10rpx;
+  font-size: 14px;
+}
+.dis_flex .right.data-v-50789bcc {
+  width: 140rpx;
+  height: 42rpx;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 28rpx;
+  text-align: center;
+  line-height: 42rpx;
+  font-size: 28rpx;
+  color: #d7b059;
+}
+.tab-list.data-v-50789bcc {
+  height: 80rpx;
+  display: flex;
+  padding-left: 8rpx;
+  box-shadow: 0px 3px 6px #F1F2F5;
+  background-color: #FFF;
+}
+.tab-list .tab.data-v-50789bcc {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #A8A8A8;
+  height: 100%;
+  line-height: 86rpx;
+  font-size: 15px;
+  font-weight: 700;
+}
+.tab-list .tab .img.data-v-50789bcc {
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 10rpx;
+  display: flex;
+}
+.tab-list .active.data-v-50789bcc {
+  color: #232323;
+  font-weight: 700;
+  position: relative;
+}
+.tab-list .active.data-v-50789bcc:after {
+  content: '';
+  position: absolute;
+  width: 16%;
+  bottom: 0;
+  left: 42%;
+  height: 6rpx;
+  border-radius: 6rpx;
+  background-color: #F8DE3D;
+}
+.limi.data-v-50789bcc {
+  width: 100%;
+  padding: 30rpx 50rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+.limi .item.data-v-50789bcc {
+  padding: 6rpx 20rpx;
+  color: #191606;
+  background-color: #E9EAEC;
+  border-radius: 30rpx;
+}
+.limi .active.data-v-50789bcc {
+  background-color: #F2CF3D;
+}
+.none_box.data-v-50789bcc {
+  padding-top: 200rpx;
+  padding: 140rpx 100rpx;
+  text-align: center;
+}
+.none_box .none.data-v-50789bcc {
+  width: 200rpx;
+  height: 160rpx;
+  margin: 0 auto;
+}
+.none_box .none image.data-v-50789bcc {
+  width: 100%;
+  height: 100%;
+}
+.none_box .txt.data-v-50789bcc {
+  margin-top: 80rpx;
+  color: #bcbcbc;
+}
+.collect.data-v-50789bcc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx 20rpx;
+  flex-wrap: wrap;
+}
+.collect .item.data-v-50789bcc {
+  width: 48%;
+  border-radius: 30rpx;
+  margin-bottom: 20rpx;
+  background-color: #FFF;
+  box-shadow: 0px 3px 6px #F1F2F5;
+  overflow: hidden;
+}
+.collect .item .shop_img.data-v-50789bcc {
+  width: 100%;
+  height: 320rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+}
+.collect .item .shop_img image.data-v-50789bcc {
+  width: 100%;
+  height: 100%;
+}
+.collect .item .detail_box.data-v-50789bcc {
+  background-color: #FFF;
+  border-radius: 0 0 30rpx 30rpx;
+  padding: 40rpx 20rpx 20rpx;
+  box-sizing: border-box;
+  color: #4A4A4A;
+  margin-top: -20rpx;
+}
+.collect .item .detail_box .name.data-v-50789bcc {
+  margin-bottom: 12rpx;
+}
+.collect .item .detail_box .away_box.data-v-50789bcc {
+  display: flex;
+  justify-content: space-between;
+}
+.collect .item .detail_box .away_box .away.data-v-50789bcc {
+  background-color: #F3E0BC;
+  color: #000;
+  padding: 6rpx 16rpx;
+  border-radius: 8rpx;
+  font-size: 15px;
+  margin-top: 10rpx;
+  display: flex;
+}
+.collect .item .detail_box .away_box .sell.data-v-50789bcc {
+  background-color: #E5004D;
+  color: #FFF;
+  padding: 6rpx 16rpx;
+  border-radius: 8rpx;
+  font-size: 15px;
+  margin-top: 10rpx;
+  display: flex;
+  margin-left: auto;
+}
+.back.data-v-50789bcc {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.back .change.data-v-50789bcc {
+  width: 86%;
+  padding: 30rpx;
+  background-color: #FFF;
+  border-radius: 30rpx;
+  box-sizing: border-box;
+}
+.back .change .title.data-v-50789bcc {
+  text-align: center;
+}
+.back .change .ipt.data-v-50789bcc {
+  margin: 0 auto;
+  margin-top: 30rpx;
+  width: 90%;
+  height: 70rpx;
+  line-height: 70rpx;
+  border: 4rpx dashed #F3E0BC;
+  padding-left: 8rpx;
+}
+.back .change .ipt input.data-v-50789bcc {
+  width: 100%;
+  height: 100%;
+}
+.back .yes.data-v-50789bcc {
+  width: 80%;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  background-color: #F3E0BC;
+  color: #000;
+  margin: 0 auto;
+  margin-top: 40rpx;
+  border-radius: 34rpx;
+}
+

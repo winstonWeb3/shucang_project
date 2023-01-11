@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background-color: #FFF;
+}
+.fix_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 30rpx;
+}
+.fix_title .no_change {
+  color: #000;
+}
+.fix_title .fix_item {
+  color: #000;
+  border-bottom: 4rpx solid #007aff;
+  padding-bottom: 8rpx;
+}
+.list {
+  padding: 30rpx 20rpx;
+}
+.item {
+  font-size: 24rpx;
+  color: #000;
+  background-color: #F2F2F2;
+  padding: 25rpx 29rpx;
+  border-radius: 15rpx;
+  margin-bottom: 22rpx;
+}
+.item .items {
+  display: flex;
+  justify-content: space-between;
+}
+.item .shop {
+  display: flex;
+  justify-content: space-between;
+}
+.item .shop .shop_img {
+  width: 140rpx;
+  height: 140rpx;
+  margin-bottom: 20rpx;
+  margin-right: 10rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.item .shop .shop_img image {
+  width: 100%;
+  height: 100%;
+}
+.item .shop .success {
+  color: #000;
+}
+.item .pay {
+  padding: 6rpx 18rpx;
+  border-radius: 10rpx;
+  background-color: #F3E0BC;
+  letter-spacing: 4rpx;
+  color: #000;
+}
+.name {
+  margin-bottom: 10rpx;
+  color: #000;
+}
+.back {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.back .change {
+  width: 86%;
+  padding: 30rpx;
+  background-color: #FFF;
+  border-radius: 30rpx;
+  box-sizing: border-box;
+}
+.back .change .title {
+  text-align: center;
+}
+.back .change .item {
+  display: flex;
+  align-items: center;
+  margin-top: 30rpx;
+  padding: 10rpx;
+}
+.back .change .item .img {
+  width: 64rpx;
+  height: 64rpx;
+  margin-right: 20rpx;
+}
+.back .change .item .img image {
+  width: 100%;
+  height: 100%;
+}
+.back .change .active {
+  border: 4rpx dashed #F3E0BC;
+  box-sizing: border-box;
+}
+.back .yes {
+  width: 80%;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  background-color: #F3E0BC;
+  color: #000;
+  margin: 0 auto;
+  margin-top: 40rpx;
+  border-radius: 34rpx;
+}
+

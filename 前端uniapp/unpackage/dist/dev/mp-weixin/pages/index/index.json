@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "尼古数藏",
+  "usingComponents": {
+    "uni-notice-bar": "/uni_modules/uni-notice-bar/components/uni-notice-bar/uni-notice-bar"
+  }
+}

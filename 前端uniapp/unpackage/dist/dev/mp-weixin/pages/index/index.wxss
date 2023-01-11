@@ -1,0 +1,407 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background: #FFF !important;
+}
+.dots_box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+.dots_box .item {
+  width: 15rpx;
+  border-radius: 50%;
+  height: 15rpx;
+  margin-right: 11rpx;
+}
+.dots_box .active {
+  background-color: #fff;
+}
+.dots_box .nochange {
+  background-color: #A2A2A2;
+}
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50rpx 30rpx 0;
+  box-sizing: border-box;
+}
+.content .index_login {
+  width: 85%;
+  z-index: 9;
+  position: fixed;
+  bottom: 110rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #191919;
+  border-radius: 20rpx;
+  padding: 20rpx 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 28rpx;
+}
+.content .index_login .index-right {
+  display: flex;
+  align-items: center;
+}
+.content .index_login .index-right .index-btn {
+  background: #F3E0BC;
+  border-radius: 25rpx;
+  padding: 10rpx 25rpx;
+  text-align: center;
+  color: #000;
+  margin-right: 15rpx;
+}
+.content .index_login .index-right .index-close {
+  width: 30rpx;
+}
+.content .banner {
+  width: 100%;
+  min-height: 290rpx;
+}
+.content .banner uni-swiper {
+  width: 100%;
+  height: 350rpx;
+}
+.content .banner .swiper-item {
+  border-radius: 40rpx;
+  overflow: hidden;
+}
+.content .banner .banner-image {
+  width: 100%;
+  min-height: 350rpx;
+}
+.content .notice_box {
+  padding: 20rpx;
+  background-color: #F6F9FF;
+  width: 100%;
+  border-radius: 12rpx;
+  margin-top: 20rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.content .notice_box .notice_img {
+  width: 220rpx;
+  height: 220rpx;
+}
+.content .notice_box .notice_txt {
+  width: 70%;
+}
+.content .notice_box .notice_txt view:nth-child(1) {
+  color: #6187F3;
+  font-weight: 700;
+  font-size: 15px;
+}
+.content .notice_box .notice_txt view:nth-child(2) {
+  color: #B2B2B2;
+  font-size: 13px;
+}
+.content .notice_box .notice_txt .tip {
+  display: flex;
+  align-items: center;
+  color: #6D6D6D;
+  margin-top: 10rpx;
+}
+.content .notice_box .notice_txt .tip .right {
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 6rpx;
+}
+.content .notice_box .notice_txt .Notice {
+  width: 100%;
+  border-radius: 14rpx;
+  overflow: hidden;
+  margin-top: 10rpx;
+}
+.content .notice_box .notice_txt .Notice uni-swiper {
+  width: 100%;
+  height: 70rpx;
+}
+.content .tab-list {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+.content .tab-list .tab-item {
+  padding: 30rpx;
+  font-size: 15px;
+  color: #000;
+}
+.content .tab-list .active {
+  font-size: 16px;
+  color: #000;
+  position: relative;
+}
+.content .tab-list .active:after {
+  content: '';
+  position: absolute;
+  bottom: 14rpx;
+  width: 40rpx;
+  height: 6rpx;
+  border-radius: 10rpx;
+  background-color: #557BF8;
+  left: 40%;
+}
+.content .picture {
+  width: 100%;
+  margin-top: 38rpx;
+}
+.content .picture .pic-item {
+  margin-bottom: 30rpx;
+  border: 2rpx solid #D0D0D0;
+  border-radius: 30rpx;
+}
+.content .picture .pic-item .start {
+  text-align: right;
+  color: #F3E0BC;
+  margin-bottom: 10rpx;
+}
+.content .picture .pic-item .pic-img {
+  position: relative;
+  width: 100%;
+  border-radius: 30rpx 30rpx 0 0;
+  z-index: 5;
+}
+.content .picture .pic-item .pic-text {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: -60rpx;
+  font-size: 45rpx;
+  color: #101010 !important;
+  padding: 80rpx 35rpx 45rpx;
+  background-color: #FFF;
+  border-radius: 34rpx;
+}
+.content .picture .pic-item .pic-text .titleTop {
+  font-weight: 700;
+  font-size: 18px;
+}
+.content .picture .pic-item .pic-text .number {
+  display: flex;
+  align-items: center;
+  font-size: 22rpx;
+  margin: 20rpx 0;
+}
+.content .picture .pic-item .pic-text .number .numText {
+  display: flex;
+  align-items: center;
+  border-radius: 5rpx;
+  background: #F6F9FF;
+  color: #000;
+  padding-right: 20rpx;
+  margin-right: 15rpx;
+}
+.content .picture .pic-item .pic-text .number .numText .title {
+  background: #557BF8;
+  padding: 5rpx 10rpx;
+  color: #fff;
+  border-radius: 5rpx;
+  margin-right: 20rpx;
+}
+.content .picture .pic-item .pic-text .toast {
+  font-size: 24rpx;
+  color: #D8BE9A;
+}
+.content .picture .pic-item .pic-text .detail {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+}
+.content .picture .pic-item .pic-text .price {
+  position: absolute;
+  bottom: 30rpx;
+  right: 30rpx;
+  font-weight: 700;
+  letter-spacing: 5rpx;
+}
+.content .yoshop-notcont {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 38rpx;
+}
+.content .yoshop-notcont .none {
+  width: 246rpx;
+  height: 150rpx;
+  margin: 0 auto;
+}
+.content .yoshop-notcont .none image {
+  width: 100%;
+  height: 100%;
+}
+.content .yoshop-notcont .contain {
+  padding: 0 20rpx 0 20rpx;
+}
+.content .yoshop-notcont .contain .goods-list {
+  margin-top: 40rpx;
+}
+.content .yoshop-notcont .contain .goods-list .calendar-item {
+  margin-bottom: 30rpx;
+  padding-top: 40rpx;
+  background: #2b2c2e;
+  border-radius: 36rpx;
+  color: #333;
+}
+.content .yoshop-notcont .contain .goods-list .calendar-item .date {
+  margin-left: 24rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+  color: #fff;
+}
+.content .yoshop-notcont .contain .goods-list .calendar-item .time {
+  margin: 26rpx 0 26rpx 24rpx;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+.content .yoshop-notcont .contain .goods-list .calendar-item .goods-item {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-right: 40rpx;
+  width: 100%;
+  height: 256rpx;
+  background: #434443;
+  border-radius: 40rpx;
+  overflow: hidden;
+  margin-bottom: 30rpx;
+}
+.content .yoshop-notcont .contain .goods-list .calendar-item .goods-item .goods-cover {
+  width: 256rpx;
+  height: 256rpx;
+  margin-right: 32rpx;
+  border-radius: 40rpx;
+  overflow: hidden;
+}
+.content .yoshop-notcont .contain .goods-list .calendar-item .goods-item .goods-cover image {
+  width: 100%;
+  height: 100%;
+}
+.content .yoshop-notcont .contain .goods-list .calendar-item .goods-item .goods-info .goods-title {
+  margin-bottom: 30rpx;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.content .yoshop-notcont .contain .goods-list .calendar-item .goods-item .goods-info .global-limit-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40rpx;
+  height: 32rpx;
+  width: 210rpx;
+  background: rgba(225, 222, 222, 0.2);
+  border-radius: 2rpx;
+  overflow: hidden;
+  text-align: center;
+  font-size: 10px;
+  line-height: 36rpx;
+}
+.content .yoshop-notcont .contain .goods-list .calendar-item .goods-item .goods-info .global-limit-box .global-limit {
+  display: inline-block;
+  width: 112rpx;
+  height: 32rpx;
+  background: #d7b059;
+  border-radius: 2rpx;
+  color: #000;
+}
+.content .yoshop-notcont .contain .goods-list .calendar-item .goods-item .goods-info .global-limit-box .global-limit-count {
+  display: inline-block;
+  width: 112rpx;
+  height: 32rpx;
+  color: #d7b059;
+}
+.content .yoshop-notcont .contain .goods-list .calendar-item .goods-item .goods-info .goods-price {
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff;
+}
+.content .yoshop-notcont .cont {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #999;
+  margin-top: 5px;
+}
+.content .container {
+  padding: 0 10rpx 40rpx;
+  width: 100%;
+}
+.content .container .goods-list {
+  margin-top: 40rpx;
+}
+.content .container .goods-list .article-item {
+  margin-bottom: 16px;
+  background: #f2f2f2;
+  border-radius: 19px;
+  color: #333;
+}
+.content .container .goods-list .article-item .article-cover {
+  height: 171px;
+  border-radius: 19px;
+  overflow: hidden;
+  z-index: 1;
+}
+.content .container .goods-list .article-item .article-cover image {
+  width: 100%;
+  height: 100%;
+}
+.content .container .goods-list .article-item .article-info {
+  padding: 32rpx 22rpx;
+}
+.content .container .goods-list .article-item .article-info .article-title {
+  margin-bottom: 8rpx;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+.content .container .goods-list .article-item .article-info .article-desc {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #999;
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
